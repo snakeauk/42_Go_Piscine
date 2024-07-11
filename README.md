@@ -24,32 +24,35 @@ Follow these steps to install the project on your local machine:
 
 ## Usage
 
-Run the project with the following command:
+1. Run the project with the following command:
    ```sh
    go run main.go
 
-To run specific tests, use the following command:
+2. To run specific tests, use the following command:
    ```sh
    go test ./...
 
-Environment
-
+## Environment
 	•	Go 1.18 or higher
 	•	All required dependencies are listed in the go.mod file.
 
-Contributing
+## Contributing
 
 Contributions are welcome. Please follow these steps:
+1.	Fork the repository.
 
-	1.	Fork the repository.
-	2.	Clone the forked repository.
-	3.	Create a new branch:
-      ```sh
-      git checkout -b feature/your-feature-name
-   4.	Commit your changes:
-      ```sh
-      git commit -m 'Add some feature'
-   5.	Push to the branch:
-      ```sh
-      git push origin feature/your-feature-name
-   6.	Create a pull request.
+2.	Clone the forked repository.
+
+3.	Create a new branch:
+   ```sh
+   git checkout -b feature/your-feature-name
+
+4.	Commit your changes:
+   ```sh
+   git commit -m 'Add some feature'
+
+5.	Push to the branch:
+   ```sh
+   git push origin feature/your-feature-name
+
+6.	Create a pull request.
